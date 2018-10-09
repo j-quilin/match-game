@@ -15,7 +15,7 @@ export default class Home extends Component{
               <div class={style.head}>
                 <h2>Match Game</h2>
               </div>
-              <button class={style.button} onClick={this.startGame.}>New Game</button>
+              <button class={style.button} onClick={this.startGame}>New Game</button>
             </div>
 
         );
